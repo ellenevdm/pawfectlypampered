@@ -5,7 +5,7 @@ html {
     margin: 0;
     text-align: center;
     scroll-behavior: smooth;
-    
+
 }
 
 h1 {
@@ -24,22 +24,24 @@ h1 {
         1px 8px 1px #919191,
         1px 9px 1px #919191,
         1px 10px 1px #919191,
-    1px 18px 6px rgba(16,16,16,0.4),
-    1px 22px 10px rgba(16,16,16,0.2),
-    1px 25px 35px rgba(16,16,16,0.2),
-    1px 30px 60px rgba(16,16,16,0.4);
+        1px 18px 6px rgba(16, 16, 16, 0.4),
+        1px 22px 10px rgba(16, 16, 16, 0.2),
+        1px 25px 35px rgba(16, 16, 16, 0.2),
+        1px 30px 60px rgba(16, 16, 16, 0.4);
     font-family: 'Playfair Display', serif;
     letter-spacing: 0.05em;
     margin-top: 0;
     margin-bottom: 20px;
 }
-h2{
+
+h2 {
     font-size: 2rem;
 }
+
 h2,
 h3,
 h4 {
-   
+
     font-family: 'Playfair Display', serif;
 
 }
@@ -67,19 +69,21 @@ header {
 .pawlogo h1 {
     margin: 20px;
 }
+
 .logo {
     height: 125px;
     width: 125px;
     margin: 20px;
-    
+
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1150px) {
     .pawlogo {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .pawlogo h1 {
         font-size: 3rem;
     }
@@ -114,23 +118,24 @@ header {
     background-repeat: no-repeat;
     margin: 0 20px;
     text-decoration: none;
-    
+
 }
 
-.button:hover { 
+.button:hover {
     color: #9CD1E1;
     background-image: url(Images/blackbonebutton.png);
 }
 
 
 body {
-    background-color:#9CD1E1 ;
+    background-color: #9CD1E1;
 }
+
 /*Mission*/
 
 .mission {
     display: flex;
-    min-height:400px ;
+    min-height: 400px;
     width: 100%;
     background-image: url(Images/mission3.jpg);
     background-size: cover;
@@ -157,7 +162,7 @@ body {
     margin: 10px 30px;
     line-height: 1.4;
     letter-spacing: 0.1em;
-    
+
 
 
 
@@ -197,20 +202,18 @@ body {
     background-color: #9CD1E1;
     padding: 10px 2px;
     display: block;
-    
+
 
 }
 
-.about h2 
-
-.about.content {
+.about h2 .about.content {
     margin-top: 0;
     display: flex;
     justify-content: space-around;
     align-content: center;
     flex-wrap: wrap;
-    
-    
+
+
 
 
 }
@@ -230,7 +233,7 @@ body {
     border-radius: 12px;
     padding: 2px 20px;
     box-shadow: 5px 2px 2px #5A8896;
-    
+
 }
 
 .aboutbox h3 {
@@ -261,12 +264,12 @@ body {
     flex-wrap: wrap;
 
 
-    
-}
-
-.valuescont h3, .valuescont p{
 
 }
+
+.valuescont h3,
+.valuescont p {}
+
 .values li {
 
     background-image: url(Images/valueback.png);
@@ -278,7 +281,7 @@ body {
     flex-basis: 250px;
     padding: 50px 10px;
     color: white;
-    margin:5px;
+    margin: 5px;
     border-radius: 12px;
     box-shadow: 5px 2px 2px #5A8896;
 
@@ -288,12 +291,12 @@ body {
     margin: 5px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1150px) {
     .values li p {
         display: none;
     }
 }
-    
+
 
 /*Container*/
 
@@ -350,7 +353,7 @@ body {
 
 .seemore {
 
-    
+
     border-radius: 12px;
     border: none;
     cursor: pointer;
@@ -364,7 +367,7 @@ body {
     text-decoration: none;
     color: black;
     border: 1px solid white;
-    box-shadow: 6px 3px 5px  #C9F3FF;
+    box-shadow: 6px 3px 5px #C9F3FF;
 
     background-color: #9CD1E1;
     color: #2B7480;
@@ -381,7 +384,7 @@ body {
     box-shadow: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1150px) {
     .prodbox p {
         display: none;
     }
@@ -392,7 +395,8 @@ body {
 .team {
     margin: 0;
     display: block;
-    background-color: #9CD1E1; }
+    background-color: #9CD1E1;
+}
 
 .teamcontainer {
     background-image: url(Images/Teambackground.jpg);
@@ -425,10 +429,11 @@ body {
     color: black;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1150px) {
     .teambox p {
         display: none;
     }
+
     .mobile {
         display: contents;
     }
@@ -451,18 +456,18 @@ body {
 
 
 .contcontainer {
-  
+
 
     display: inline-flex;
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    
+
 
 }
 
 .contbox {
-    
+
     border-radius: 20px;
     display: inline-flex;
     flex-direction: column;
@@ -470,50 +475,49 @@ body {
     align-content: center;
     max-width: 600px;
     margin: 0 10px 20px 10px;
-   
-    
-    
+
+
+
 }
+
 .continfo {
-    display: flex;   
+    display: flex;
     justify-content: center;
     align-content: center;
-  
-    
+
+
 
 }
 
-.contactbox {   
+.contactbox {
     margin: 10px;
     background-color: #9CD1E1;
     color: #2B7480;
     border-radius: 30px;
-    padding: 5px ;
+    padding: 5px;
     box-shadow: 6px 3px 3px #578694;
- 
+
     border: 1px solid black;
 }
+
 .contactbox a {
     text-decoration: none;
     color: black;
     font-size: 1.15rem;
 
 }
-.email {
 
-}
+.email {}
 
-.call {
-
-}
+.call {}
 
 
 .subscribe {
     display: flex;
-  background-color: #9CD1E1;
-  max-width: 500px;
-  box-shadow: 6px 3px 3px #578694;
-  padding: 10px;
+    background-color: #9CD1E1;
+    max-width: 500px;
+    box-shadow: 6px 3px 3px #578694;
+    padding: 10px;
 
 }
 
@@ -533,9 +537,9 @@ body {
     margin: 8px 0;
     box-sizing: border-box;
 }
-input [type=text] {
 
-}
+input [type=text] {}
+
 .subsbutton {
     padding: 12px 10px;
     font-family: 'Playfair Display', serif;
@@ -546,10 +550,10 @@ input [type=text] {
     cursor: pointer;
 }
 
-.subsbutton:hover   {
+.subsbutton:hover {
     background-color: #9CD1E1;
     color: #2B7480;
-    box-shadow: 6px 3px 5px  #C9F3FF;
+    box-shadow: 6px 3px 5px #C9F3FF;
 }
 
 
@@ -582,10 +586,10 @@ footer {
         1px 8px 1px #919191,
         1px 9px 1px #919191,
         1px 10px 1px #919191,
-    1px 18px 6px rgba(16,16,16,0.4),
-    1px 22px 10px rgba(16,16,16,0.2),
-    1px 25px 35px rgba(16,16,16,0.2),
-    1px 30px 60px rgba(16,16,16,0.4);
+        1px 18px 6px rgba(16, 16, 16, 0.4),
+        1px 22px 10px rgba(16, 16, 16, 0.2),
+        1px 25px 35px rgba(16, 16, 16, 0.2),
+        1px 30px 60px rgba(16, 16, 16, 0.4);
     font-family: 'Playfair Display', serif;
     letter-spacing: 0.05em;
     margin-top: 0;
