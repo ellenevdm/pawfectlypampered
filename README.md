@@ -1,31 +1,34 @@
-# pawfectlypampered.github.io
+# Pawfectly Pampered
 
-Pawfectly Pampered Company Home Page
-Pawfectly Pampered Logo
+Pawfectly Pampered is a responsive homepage for a pet product company, designed using HTML and CSS Flexbox. The project showcases the company's mission, values, product offerings, team members, and contact information in a clean and user-friendly layout.
 
-Description
-Pawfectly Pampered Company Home Page is a project that involves designing and building a company homepage using Flexbox layout techniques. The purpose of this project is to create an attractive and responsive homepage for a pet product company, showcasing their products, mission, values, team members, and contact information. The project aims to demonstrate the use of Flexbox for creating flexible and appealing layouts that adapt to different screen sizes.
+## Demo
 
-Features
-Company Information: The homepage includes sections for showcasing the company's mission, history, values, and inspiration. This information provides users with insights into the company's background and philosophy.
+View the live site here: [ellenevdm.github.io/pawfectlypampered](https://ellenevdm.github.io/pawfectlypampered/)
 
-Product Showcase: The project displays various categories of pet products, such as toys, pet beds, pet essentials, and accessories. Each product category includes a brief description and a "See More" button for further exploration.
+## Features
 
-Team Section: The team section introduces key members of the company, including their roles and brief descriptions. Each team member's image and information are presented in a visually appealing manner.
+- **Company Information**: Sections detailing the company's mission, history, values, and inspiration.
+- **Product Showcase**: Display of various pet product categories, such as toys and pet beds.
+- **Team Introduction**: Profiles of team members with their roles and brief bios.
+- **Contact Information**: Easy-to-find contact details for customer inquiries.
+- **Responsive Design**: Layout adapts seamlessly to different screen sizes using Flexbox.
 
-Contact Information: Users can find contact details for the company, including options to send an email or make a call. Additionally, there's a subscription form for users to receive newsletters.
+## Technologies Used
 
-How to Use
-Clone or download the project repository from GitHub.
-Open the index.html file in a web browser to view the Pawfectly Pampered Company Home Page.
-Technologies Used
-HTML5: Used for structuring the content of the webpage.
-CSS3: Utilized for styling the webpage, including layout, colors, fonts, and responsiveness.
-Flexbox: Employed Flexbox layout techniques to create responsive and flexible page layouts.
-Google Fonts API: Imported fonts from the Google Fonts library to enhance typography.
-Collaborators
-Project created by Your Name
-License
-This project is licensed under the MIT License.
+- HTML5
+- CSS3 (Flexbox)
 
-By creating the Pawfectly Pampered Company Home Page, I aimed to showcase my skills in using Flexbox for creating responsive and visually appealing layouts. Through this project, I've learned valuable techniques for structuring content, styling elements, and ensuring compatibility across different devices. I'm proud to present this project as an example of my front-end development capabilities. Feel free to explore the code and see how Flexbox can be utilized to build impressive web layouts.
+## Getting Started
+
+To view or modify the project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ellenevdm/pawfectlypampered.git
+   ```
+2. Navigate to project directory
+   ```bash
+   cd pawfectlypampered
+   ```
+3. Open index.html in your preferred web browser
